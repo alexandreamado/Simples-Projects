@@ -7,11 +7,82 @@
     </div>
     <br>
     <div>
-        <label for="password">password: </label>
+        <label for="password">Password: </label>
         <input type="password" id="password" name="password" required placeholder="Enter you password">
     </div> 
-    <br>
-    <button type="submit">Login</button>
+    <br> 
+    <div>
+        <button  class="click" type="submit">Login</button>
+    </div>
+    <a href="/register">Register</a> 
 </form> 
 
-<a href="/register">Register</a>
+
+<style> 
+   * {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 0;
+   }   
+
+   form {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+   }
+
+   h1 {
+    text-align: center; 
+    margin-bottom: 20px;
+   }
+
+   div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   } 
+
+   label {
+    padding: 10px;
+    display: flex;
+   } 
+
+   input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+   } 
+
+   .click {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+   } 
+
+   .click:hover {
+    background-color: brown;
+    color: white;
+   }
+   
+   a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: small;
+    font-weight: 300;
+   }
+   
+
+
+</style>
